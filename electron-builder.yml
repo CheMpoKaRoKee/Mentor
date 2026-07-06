@@ -1,0 +1,15 @@
+appId: com.learning.mentor
+productName: Learning Mentor
+directories:
+  output: dist
+files:
+  - src/main/**/*
+  - src/preload/**/*
+  - dist/renderer/**/*
+  - package.json
+win:
+  target: nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
